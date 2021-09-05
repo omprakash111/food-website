@@ -1,0 +1,32 @@
+body{
+	background-image:url('a.jpg');
+	background-size: cover;
+}
+.video_selector{
+	position: fixed;
+	right:0;
+	bottom:0;
+	min-width:100%;
+	min-height:100%;
+	width: auto;
+	height: auto;
+	z-index: -999;
+}
+div{
+	font-family: vardhana;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	margin-top: 200px;
+	
+}
+button{
+	background: transparent;	
+}
+button a{
+	font-size 25px;
+	color: #fff;
+	text-decoration: none;
+}
+ 
+ 

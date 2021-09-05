@@ -1,0 +1,122 @@
+
+<html><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+h1{text-shadow:2px 2px 5px blue;}
+h1{color:white;text-shadow:1px 1px 2px black, 0 0 25px blue,0 0 5px darkblue;}
+
+h3{text-shadow:2px 3px 5px white;}
+h3{color:red;text-shadow:1px 1px 50px green, 0 5px 35px green,2px 3px 54px yellow;}
+
+
+.button{background-color:white;
+border:2px solid;
+color:white;
+width:70px;
+height:20px;
+border-radius:15px;
+transition-duration:1s;
+ text-align:center;
+font-size:15px;
+
+}
+
+
+.button8{background-color:gray;
+                padding:7px 7px;
+}
+.button8:hover{background-color:red; transation-delay:4s;}
+
+
+.button9{background-color:gray;
+                padding:7px 7px;}
+.button9:hover{background-color:#4CAF50; transation-delay:2s;}
+
+
+
+
+
+
+
+
+table{border-radius:16px;padding:10px 7px;text-align:center;box-shadow:0 0 15px blue;}
+</style>
+
+
+
+
+<script>
+var a="document.f1.t1.value";
+
+function f()
+{
+
+alert(a+"your order have been received")
+
+}
+
+
+</script>
+
+
+
+
+</head>
+
+
+<body>
+
+
+<center>
+<h1>DELIVERY FORM</h1></center>
+
+<center>
+<table border="3px" cellspacing="10px" >
+<form name="f1">
+
+<tr align="center"><td><h3>ENTER YOUR NAME</h3></td>
+<TD><INPUT Type="textbox" name=t1 size=20></TD></tr> 
+
+<tr align="center"><td><h3>ENTER YOUR CONTACT NO.</h3></td>
+<TD><INPUT Type="textbox" name=iBmaxlength=10></TD></tr> 
+
+<tr align="center"><td><h3> YOUR ADDRESS</h3></td>
+<TD><INPUT Type="textbox" name=iC ></TD></tr> 
+
+
+<tr align="center"><td><h3>ENTER YOUR City</h3></td>
+<TD><INPUT Type="textbox" name=ia maxlength=10></TD></tr> 
+
+<tr align="center"><td><h3>PAYMENT MODE</h3></td>
+<TD><INPUT Type="RADIO" name=r>COD<INPUT Type="RADIO" name=r>DEBIT/CREDIT CARD</TD></tr> 
+
+
+<tr align="center"><td><h3>REQUIRED FOR</h3></td>
+<TD><INPUT Type="RADIO" name=R1>1 <INPUT Type="RADIO" name=R1>2<INPUT Type="RADIO" name=R1>>2members</TD></tr> 
+
+<tr align="center"><td>
+<a href="index.html"><input type="button" onclick="fun()" value=submit  onclick="f()"></a>
+</td><td><input type="button" value=reset onclick="q()"></td></tr>
+</table></center>
+
+
+
+
+
+</body></html>
